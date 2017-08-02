@@ -4,14 +4,18 @@
 	<!-- TODO: ocsid -->
 	<id>beame_insta_ssl</id>
 	<name>Secure remote access (beame-insta-ssl)</name>
-	<description>Access your Nextcloud from the Internet without configuring firewall/router. First install beame-insta-ssl npm globally.</description>
-	<category>intergration</category>
+	<summary>Access your Nextcloud securely from the Internet without configuring firewall/router.</summary>
+	<description><![CDATA[beame-insta-ssl makes your Nextcloud accessible from the Internet even if it is behind a firewall or router. You must have beame-insta-ssl npm installed globally. The communication is secured by TLS (HTTPS).]]></description>
+	<category>integration</category>
+	<category>tools</category>
 	<licence>AGPL</licence>
 	<author>Beame.io LTD</author>
 	<namespace>BeameInstaSsl</namespace>
 	<version>0.0.4</version>
+	<website>https://github.com/nextcloud/beame_insta_ssl</website>
+	<bugs>https://github.com/nextcloud/beame_insta_ssl/issues</bugs>
+	<repository type="git">https://github.com/nextcloud/beame_insta_ssl.git</repository>
 
-	<default_enable/>
 	<types>
 		<filesystem/>
 	</types>
@@ -23,7 +27,6 @@
 		<command>nohup</command>
 		<command>ps</command>
 	</dependencies>
-	<website>https://www.beame.io/insta-ssl</website>
 	<settings>
 		<admin>OCA\BeameInstaSsl\Settings\Admin</admin>
 	</settings>
