@@ -11,7 +11,7 @@
 	<licence>AGPL</licence>
 	<author>Beame.io LTD</author>
 	<namespace>BeameInstaSsl</namespace>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<website>https://github.com/nextcloud/beame_insta_ssl</website>
 	<bugs>https://github.com/nextcloud/beame_insta_ssl/issues</bugs>
 	<repository type="git">https://github.com/nextcloud/beame_insta_ssl.git</repository>
