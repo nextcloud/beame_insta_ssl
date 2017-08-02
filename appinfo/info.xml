@@ -11,7 +11,16 @@
 	<licence>AGPL</licence>
 	<author>Beame.io LTD</author>
 	<namespace>BeameInstaSsl</namespace>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
+
+	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/running-zoom.png</screenshot>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/01-not-installed.png</screenshot>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/02-no-creds.png</screenshot>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/03-stopped.png</screenshot>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/04-running.png</screenshot>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/05-link-works.png</screenshot>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/06-crashed.png</screenshot>
+
 	<website>https://github.com/nextcloud/beame_insta_ssl</website>
 	<bugs>https://github.com/nextcloud/beame_insta_ssl/issues</bugs>
 	<repository type="git">https://github.com/nextcloud/beame_insta_ssl.git</repository>
