@@ -6,12 +6,19 @@
 	<name>Secure remote access (beame-insta-ssl)</name>
 	<summary>Access your Nextcloud securely from the Internet without configuring firewall/router.</summary>
 	<description><![CDATA[beame-insta-ssl makes your Nextcloud accessible from the Internet even if it is behind a firewall or router. You must have beame-insta-ssl npm installed globally. The communication is secured by TLS (HTTPS).]]></description>
-	<category>integration</category>
-	<category>tools</category>
-	<licence>AGPL</licence>
+	<version>0.0.6</version>
+	<licence>agpl</licence>
 	<author>Beame.io LTD</author>
 	<namespace>BeameInstaSsl</namespace>
-	<version>0.0.6</version>
+	<types>
+		<filesystem/>
+	</types>
+	<category>integration</category>
+	<category>tools</category>
+
+	<website>https://github.com/nextcloud/beame_insta_ssl</website>
+	<bugs>https://github.com/nextcloud/beame_insta_ssl/issues</bugs>
+	<repository type="git">https://github.com/nextcloud/beame_insta_ssl.git</repository>
 
 	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/running-zoom.png</screenshot>
 	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/01-not-installed.png</screenshot>
@@ -21,20 +28,13 @@
 	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/05-link-works.png</screenshot>
 	<screenshot>https://raw.githubusercontent.com/nextcloud/beame_insta_ssl/e09f9f30129c1c703a15cb01090cb9b8f5b459ea/screenshots/06-crashed.png</screenshot>
 
-	<website>https://github.com/nextcloud/beame_insta_ssl</website>
-	<bugs>https://github.com/nextcloud/beame_insta_ssl/issues</bugs>
-	<repository type="git">https://github.com/nextcloud/beame_insta_ssl.git</repository>
-
-	<types>
-		<filesystem/>
-	</types>
 	<dependencies>
-		<nextcloud min-version="12" max-version="14" />
 		<command>bash</command>
 		<command>env</command>
 		<command>grep</command>
 		<command>nohup</command>
 		<command>ps</command>
+		<nextcloud min-version="12" max-version="14" />
 	</dependencies>
 	<settings>
 		<admin>OCA\BeameInstaSsl\Settings\Admin</admin>
